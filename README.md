@@ -1,4 +1,4 @@
-# Hey, this is my fully animated website project on GitHub!
+# Hey, this is my fully animated [website](https://paulotealdi.github.io/animated-website/) project on GitHub!
  
 ## For this I used: 
  * Transitions
