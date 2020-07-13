@@ -18,7 +18,7 @@ body {
     top: 0;
     transform-origin: center;
     animation-name: translate-background;
-    animation-duration: 25s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     background-image: linear-gradient(0deg, #e9f2f5 0%, #c9e6f0 30%, #3b406d 80%, #030d53 100%);
@@ -34,7 +34,7 @@ body {
     background-color: rgb(220, 221, 128);
     border-radius: 70%;
     animation-name: ground-animation;
-    animation-duration: 25s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -124,16 +124,16 @@ body {
 
 #main-quote {
     width: 30vw;
-    height: 20vh;
+    min-height: 200px;
     position: absolute;
-    top: 45%;
-    left:10vw;
+    top: 50%;
+    left: 10vw;
     transform: translateY(-50%);
     margin: 0 auto;
     font-size: 24px;
     color: rgba(58, 58, 59, 0.801);
     animation-name: quote;
-    animation-duration: 12.5s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
@@ -157,7 +157,7 @@ body {
     left: 30vw;
     transform: translateY(-50%);
     animation-name: stephen-animation;
-    animation-duration: 12.5s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -213,7 +213,7 @@ body {
     }
 
     50% {
-        opacity: 0.2;
+        opacity: 0.15;
     }
 
     100% {
@@ -232,5 +232,26 @@ body {
 
     100% {
         opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #stephen {
+        margin: 0 auto;
+        width: 100vw;
+        left: 0;
+        height: 50vh;
+    }
+
+    #sun {
+        left: 75vw;
+    }
+
+    #main-quote {
+        width: 70vw;
+    }
+
+    #text2 {
+        left: 10vw;
     }
 }
